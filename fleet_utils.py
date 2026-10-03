@@ -1,7 +1,8 @@
 # fleet_utils.py
 # Cleaned up and modernized helpers.
 
-# Hata düzeltildi: 1 Kilometre = 0.621371 mildir. (Eskiden km 1.609 ile çarpılıyordu)
+
+
 KM_TO_MILES_FACTOR = 0.621371
 
 def km_to_miles(km: float) -> float:
